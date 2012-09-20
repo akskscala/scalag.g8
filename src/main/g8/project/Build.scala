@@ -9,8 +9,7 @@ object AppBuild extends Build {
     sbtPlugin := false,
     organization := "$organization$",
     name := "$name$",
-    version := "$version$",
-    scalaVersion := "$scala_version$",
+    version := "0.0.1",
     resolvers ++= Seq(
       "typesafe releases" at "http://repo.typesafe.com/typesafe/releases",
       "sonatype releases" at "http://oss.sonatype.org/content/repositories/releases/"
